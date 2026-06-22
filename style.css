@@ -1,46 +1,115 @@
+* General Styling */
 body{
-    background-color:#E6F2FF;
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
 }
 
-h1{
-    color: navy;
+/* Header */
+header{
+    background-color: #800020; /* Burgundy */
+    color: white;
     text-align: center;
+    padding: 20px;
 }
 
-h2{
-    color: darkblue;
+/* Navigation */
+nav{
+    background-color: #000000;
+    text-align: center;
+    padding: 12px;
 }
 
-p{
-    font-size: 16px;
-}
-
-a{
-    color: blue;
+nav a{
+    color: white;
     text-decoration: none;
+    margin: 15px;
     font-weight: bold;
 }
 
-a:hover{
-    color: red;
+nav a:hover{
+    color: #800020;
 }
 
-table{
-    border-collapse: collapse;
+/* Main Content */
+.container{
     width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(128, 0, 32, 0.3);
 }
 
-th, td{
-    border: 1px solid black;
-    padding: 10px;
+/* Headings */
+h1, h2, h3{
+    color: #800020;
+}
+
+/* Images */
+img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 15px auto;
+    border: 3px solid #800020;
+    border-radius: 10px;
+}
+
+/* Tables */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td{
+    border: 1px solid #000000;
 }
 
 th{
-    background-color: lightblue;
+    background-color: #800020;
+    color: white;
 }
 
-img{
-    border-radius: 10px;
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+/* Forms */
+form{
+    width: 60%;
+    margin: auto;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #800020;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #800020;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: #000000;
+}
+
+/* Footer */
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+        margin-top: 20px;
 }
